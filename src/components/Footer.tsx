@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { Bot, Linkedin, Twitter, Mail, Phone } from 'lucide-react';
+import { Bot, Twitter, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -72,10 +72,7 @@ const Footer = () => {
               Scale your operations, boost conversions, and unlock exponential growth.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-xl flex items-center justify-center transition-all duration-300 group">
-                <Linkedin className="w-5 h-5 text-gray-400 group-hover:text-white" />
-              </a>
-              <a href="#" className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-xl flex items-center justify-center transition-all duration-300 group hover-pop-button">
+              <a href="https://x.com/Automate_hub1" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-xl flex items-center justify-center transition-all duration-300 group hover-pop-button">
                 <Twitter className="w-5 h-5 text-gray-400 group-hover:text-white" />
               </a>
               <button onClick={handleEmailClick} className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-xl flex items-center justify-center transition-all duration-300 group hover-pop-button">
